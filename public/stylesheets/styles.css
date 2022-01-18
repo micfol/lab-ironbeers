@@ -5,3 +5,17 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+.landingimg {
+    width: 250px;
+    margin: 20px;
+}
+
+.button-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-img-top {
+    width: 60px;
+}
