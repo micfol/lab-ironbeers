@@ -1,5 +1,3 @@
-
-{{#each beers}}
 <div class="card" style="width: 18rem;">
   <img src="{{this.image_url}}" class="card-img-top" alt="picture of beer">
   <div class="card-body">
@@ -9,5 +7,10 @@
   <ul class="list-group list-group-flush">
     <li class="list-group-item">{{this.tagline}}</li>
   </ul>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{this.food_pairing}}</li>
+  </ul>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{this.brewer_tips}}</li>
+  </ul>
 </div>
-{{/each}}
